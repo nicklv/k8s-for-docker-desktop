@@ -5,7 +5,7 @@
 说明: 
 
 * 需安装 Docker for Mac或者Docker for Windows，如果没有请下载[下载 Docker CE最新版本](https://store.docker.com/search?type=edition&offering=community)
-* 当前 master 分支已经在 Docker for Mac/Windows 18.09/18.06 (包含 Kubernetes 1.10.3) 版本测试通过，如果你希望使用 18.03 版本, 请使用下面命令切换 18.03 分支 ```git checkout 18.03```
+* 当前 master 分支已经在 Docker for Mac/Windows 18.09/18.06 (包含 Kubernetes 1.10.11) 版本测试通过，如果你希望使用 18.09 版本, 请使用下面命令切换 18.09 分支 ```git checkout 18.09```
 
 ### Docker for Mac 开启 Kubernetes
 
@@ -210,11 +210,11 @@ helm repo update
 
 可以根据文档安装 Istio https://istio.io/docs/setup/kubernetes/
 
-#### 下载 Istio 1.0.4 并安装 CLI
+#### 下载 Istio 1.1 并安装 CLI
 
 ```bash
 curl -L https://git.io/getLatestIstio | sh -
-cd istio-1.0.4/
+cd 1.1.0-snapshot.5/
 export PATH=$PWD/bin:$PATH
 ```
 
