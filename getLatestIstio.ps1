@@ -4,7 +4,7 @@ param(
 
 $url = "https://github.com/istio/istio/releases/download/$($IstioVersion)/istio-$($IstioVersion)-win.zip"
 $Path = Get-Location
-$output = [IO.Path]::Combine($Path, "istio-$($IstioVersion)-win.zip��)
+$output = [IO.Path]::Combine($Path, "istio-$($IstioVersion)-win.zip")
     
 Write-Host "Downloading Istio from $url to path " $Path -ForegroundColor Green 
     
